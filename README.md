@@ -13,20 +13,20 @@ Data scientist with a focus on healthcare, biotech and applied statistics. I car
 
 | Project | What it shows | Stack |
 |---|---|---|
-| [Credit card fraud detection](https://github.com/lukahere007/creditcard-fraud-analysis) | Imbalanced classification (0.15% fraud): leak-free cross-validation, PR-AUC, and an alert threshold chosen by money saved. Tested package + CI. | Python, scikit-learn, SHAP |
-| [A/B testing framework for ML models](https://github.com/lukahere007/ml-model-ab-test-framework) | Design-first A/B testing: sample size, effect sizes with CIs, multiple-testing correction, and a simulation of the "peeking" problem. Tested package + CI. | Python, SciPy |
-| [Missing data imputation](https://github.com/lukahere007/missing-data-imputation-analysis) | Monte Carlo study of complete-case, mean, regression and multiple imputation under MCAR/MAR/MNAR: bias and CI coverage. | Python, statsmodels |
-| [Phishing email detection](https://github.com/lukahere007/phishing-detection) | 525k emails: Random Forest vs GBM with resampling, model and threshold chosen on validation, test scored once. | R, caret |
-| [Insurance redlining regression](https://github.com/lukahere007/redlining-regression-r) | Multiple linear regression on 1970s Chicago insurance data: variable selection, diagnostics, LOOCV. | R |
-| [Wine quality Shiny app](https://github.com/lukahere007/Wine_Shiny_app) | Interactive app: explore wine chemistry and predict quality with ordinal logistic regression. | R, Shiny |
+| [Clinical trial survival analysis](https://github.com/lukahere007/clinical-trial-survival-analysis) | Reanalysis of a randomised colon cancer chemotherapy trial driven by a pre-written statistical analysis plan: Kaplan–Meier, Cox models, proportional-hazards checks, RMST, sensitivity analyses. | R, survival |
+| [Biotech FDA event study](https://github.com/lukahere007/biotech-fda-event-study) | How 234 FDA novel drug approvals moved biotech stocks (2015–2024): small caps +8.5%, large caps ~0. Market model, robust test statistics, full attrition accounting. | Python, pandas |
+| [Readmission risk API](https://github.com/lukahere007/readmission-risk-api) | 30-day hospital readmission model shipped as a FastAPI service in Docker: patient-grouped evaluation, calibration, subgroup checks, drift monitoring, model card. | Python, scikit-learn, FastAPI, Docker |
+| [Healthcare SQL analytics](https://github.com/lukahere007/healthcare-sql-analytics) | Ten clinical/business questions answered in layered SQL on synthetic EHR data: readmissions, length of stay, cost drivers, polypharmacy, care gaps. Tested queries. | SQL, DuckDB |
+| [Credit card fraud detection](https://github.com/lukahere007/creditcard-fraud-analysis) | Imbalanced classification (0.15% fraud): leak-free cross-validation, PR-AUC, and an alert threshold chosen by money saved. | Python, scikit-learn, SHAP |
+| [A/B testing framework for ML models](https://github.com/lukahere007/ml-model-ab-test-framework) | Design-first A/B testing: sample size, effect sizes with CIs, multiple-testing correction, and a simulation of the "peeking" problem. Tested package. | Python, SciPy |
 
 ### More work
 
-- **Statistics & simulation:** [A/B test power](https://github.com/lukahere007/A-B-Test-Power) (R) · [Vaccine response simulation](https://github.com/lukahere007/Vaccine-Simulation-Python) (Python) and its [R companion](https://github.com/lukahere007/vaccine-immune-response)
-- **Classification:** [Breast cancer logistic regression](https://github.com/lukahere007/Breast-Cancer-Analysis-Python) (Python) and its [R version](https://github.com/lukahere007/breast-cancer-logistic-regression-analysi)
-- **Unsupervised learning:** [Wine quality factor analysis](https://github.com/lukahere007/Wine-Quality-Analysis) (Python)
+- **Statistics & simulation:** [Missing data imputation](https://github.com/lukahere007/missing-data-imputation-analysis) (Monte Carlo, Python) · [A/B test power](https://github.com/lukahere007/A-B-Test-Power) (R) · [Vaccine response simulation](https://github.com/lukahere007/Vaccine-Simulation-Python) (Python) and its [R companion](https://github.com/lukahere007/vaccine-immune-response)
+- **Regression & classification:** [Insurance redlining regression](https://github.com/lukahere007/redlining-regression-r) (R) · [Phishing email detection](https://github.com/lukahere007/phishing-detection) (R, 525k emails) · [Breast cancer logistic regression](https://github.com/lukahere007/Breast-Cancer-Analysis-Python) (Python) and its [R version](https://github.com/lukahere007/breast-cancer-logistic-regression-analysi)
+- **Apps & unsupervised learning:** [Wine quality Shiny app](https://github.com/lukahere007/Wine_Shiny_app) (R) · [Wine quality factor analysis](https://github.com/lukahere007/Wine-Quality-Analysis) (Python)
 - **Dashboards & visualisation:** [COVID-19 historical dashboard](https://github.com/lukahere007/covid19-health-analytics) (Streamlit) · [Housing data plotting toolkit](https://github.com/lukahere007/housing-viz) (Python)
 
 ### Tools
 
-Python (pandas, scikit-learn, statsmodels, SHAP, Streamlit) · R (tidyverse, caret, Shiny, R Markdown) · Jupyter · Git & GitHub Actions
+Python (pandas, scikit-learn, statsmodels, SHAP, FastAPI, Streamlit) · R (tidyverse, survival, caret, Shiny, R Markdown) · SQL (DuckDB) · Docker · Jupyter · Git & GitHub Actions
