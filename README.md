@@ -2,6 +2,7 @@
 
 Data scientist with a focus on healthcare and applied statistics. I care about getting the statistics right: honest evaluation, no data leakage, and conclusions the evidence actually supports. I work in **Python** and **R**.
 
+- 🌐 Portfolio website: [lukahere007.github.io](https://lukahere007.github.io)
 - 🌱 Currently deepening: advanced statistical modelling, SQL, and ML pipelines.
 - 🤝 Open to collaborating on data projects in clinical research, health outcomes or public policy.
 - 📫 [lukewamalwa@yahoo.com](mailto:lukewamalwa@yahoo.com) · [LinkedIn](https://www.linkedin.com/in/luke-wamalwa-839624292/) · Pronouns: He/Him
